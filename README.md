@@ -21,7 +21,7 @@ Since BI has this stuff scattered across HUNDREDS of files, this tool saves a to
 
 Run the script
 ```
-python dayz_item_size_scanner.py
+python scan_configs.py
 ```
 
 Wait while it scans everything (there are a LOT of files)
