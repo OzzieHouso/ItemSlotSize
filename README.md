@@ -31,6 +31,22 @@ Check the output files:
  - `dayz_all_item_sizes.csv` - Same data in CSV format for Excel (in my case a database)
  - `dayz_item_sizes_by_slot.txt` - Items grouped by how many slots they take up
 
+Output will look like this
+
+```
+--------------------------------------------------
+Class: AugShort
+Size: 6,3
+SlotSizeTotal: 6x3 (18 Slots)
+Path: P:\DZ\weapons\firearms\aug\config.bin
+--------------------------------------------------
+Class: FAMAS
+Size: 6,3
+SlotSizeTotal: 6x3 (18 Slots)
+Path: P:\DZ\weapons\firearms\famas\config.bin
+--------------------------------------------------
+```
+
 
 # Troubleshooting
 If the script can't read the binary config files (which most likely, wont be able to do... ), use the included conversion script first:
